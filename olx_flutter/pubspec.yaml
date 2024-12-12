@@ -1,0 +1,66 @@
+name: olx
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Versioning
+version: 1.0.0+1
+
+# Environment setup
+environment:
+  sdk: ^3.5.3
+
+# Dependencies for your app
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^0.8.7+3  # Versi terbaru dari image_picker
+  mime: ^1.0.0
+  http_parser: ^4.0.0
+  connectivity_plus: ^6.1.0
+  intl: ^0.18.0
+  # flushbar: ^1.10.0
+
+  # Cupertino Icons for iOS style icons
+  cupertino_icons: ^1.0.8
+
+  # HTTP package for making API calls
+  http: ^1.2.2  # Update to latest version to avoid issues
+
+  # Flutter Toast for showing notifications on UI
+  fluttertoast: ^8.2.1
+
+  # Provider package for state management (if needed)
+  provider: ^6.0.3
+
+  # SharedPreferences for storing simple data locally (if needed)
+  shared_preferences: ^2.1.0
+
+  # For form validation and validation-related utilities
+  form_field_validator: ^1.1.0 # Make sure to use a compatible version
+
+  # GetIt for service locator (if needed)
+  get_it: ^7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting package to enforce code quality
+  flutter_lints: ^4.0.0
+
+# Flutter configuration
+flutter:
+  uses-material-design: true
+
+  # Add your image assets here
+  assets:
+    - assets/images/
+
+  # Add custom fonts if you have any
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
